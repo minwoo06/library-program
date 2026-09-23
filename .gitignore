@@ -1,13 +1,21 @@
-# DB 설정 파일 (비밀번호 포함 - 절대 올리지 말것!)
-config.php
+# Local credentials and environment settings
+/config.php
+.env
+.env.*
+!.env.example
 
-# DB 백업 파일 (개인 데이터 포함)
+# Database dumps and archives; only the reviewed schema is published
 *.sql
+!database/schema.sql
+*.zip
+*.7z
+*.rar
+*.bak
+*.log
 
-# 운영체제 파일
+# Local development files
+/gitignore
 .DS_Store
 Thumbs.db
-
-# 에디터 설정
 .vscode/
 .idea/

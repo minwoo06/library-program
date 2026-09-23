@@ -22,22 +22,15 @@ library/
  ├── book_edit.php     도서 수정 (관리자 전용)
  ├── book_delete.php   도서 삭제 (관리자 전용)
  ├── my_rentals.php    내 대여 현황 / 반납 (회원 전용)
- └── 학번.sql          DB 백업 파일
+ ├── config.example.php  비밀번호 없는 설정 예제
+ └── database/schema.sql  신규 설치용 스키마
 
-[DB 설정 방법]
-1. MySQL 접속 후:
-   CREATE DATABASE `library` DEFAULT CHARACTER SET utf8mb4;
-   USE library;
-   source C:/Apache24/htdocs/library/학번.sql
-
-2. config.php 에서 DB_PASS 를 본인 MySQL 비밀번호로 변경
-
-[테스트 계정]
-※ 보안상 로그인 화면에는 계정 정보를 표시하지 않습니다.
-   아래 계정은 개발·테스트 목적으로만 사용하며,
-   실제 배포 시 반드시 비밀번호를 변경하세요.
-- 관리자: admin / admin1234
-- 일반회원: kim01 / password123
+[설치 및 DB 설정]
+최신 설치 방법은 README.md를 참고하세요.
+- config.example.php를 config.php로 복사한 뒤 본인의 DB 접속 정보를 설정합니다.
+- 신규 DB에는 database/schema.sql을 불러옵니다.
+- 실제 config.php와 개인 DB 백업 파일은 저장소에서 제외합니다.
+- 공개 테스트 계정을 제공하지 않습니다. 회원가입 후 필요 시 관리자 권한을 설정하세요.
 
 ==================================================
   JOIN 사용 위치
