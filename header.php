@@ -129,7 +129,7 @@ require_once './config.php';
 </head>
 <body>
 <nav>
-  <div class="nav-logo">📚 <span>BookRent</span></div>
+  <div class="nav-logo">📚 <span>Library</span></div>
   <div class="nav-links">
     <a href="./index.php">홈</a>
     <a href="./book_list.php">도서 목록</a>

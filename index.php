@@ -27,7 +27,7 @@ $member_count = $conn->query("SELECT COUNT(*) AS cnt FROM users WHERE role='memb
   <!-- 히어로 배너 -->
   <div style="background:linear-gradient(135deg,#1a237e,#283593);color:#fff;border-radius:16px;padding:3rem 2.5rem;margin-bottom:2rem;position:relative;overflow:hidden;">
     <div style="font-size:3rem;margin-bottom:.5rem;">📚</div>
-    <h1 style="font-size:2rem;font-weight:700;margin-bottom:.5rem;">BookRent 도서 대여 사이트</h1>
+    <h1 style="font-size:2rem;font-weight:700;margin-bottom:.5rem;">도서 대여 사이트</h1>
     <p style="color:#c5cae9;font-size:1rem;margin-bottom:1.5rem;">원하는 책을 쉽고 빠르게 대여하세요.</p>
     <?php if (!isLoggedIn()): ?>
       <a href="./register.php" class="btn btn-primary" style="background:#ffd54f;color:#1a237e;margin-right:.5rem;">회원가입</a>

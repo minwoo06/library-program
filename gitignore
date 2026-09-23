@@ -1,0 +1,13 @@
+# DB 설정 파일 (비밀번호 포함 - 절대 올리지 말것!)
+config.php
+
+# DB 백업 파일 (개인 데이터 포함)
+*.sql
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# 에디터 설정
+.vscode/
+.idea/
